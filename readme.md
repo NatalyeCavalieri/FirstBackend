@@ -1,43 +1,41 @@
-<h1 align= "center">RocketNotes Backend</h1>
+<h1 align="center">RocketNotes Backend</h1>
 
-Bem-vindo ao backend do RocketNotes - Sua aplicação de notas incrível!
+Welcome to the RocketNotes backend - Your amazing note-taking application!
 
- > Status: developing 🚧
+> Status: developing 🚧
 
-## Visão Geral do Projeto
+## Project Overview
 
-O backend do RocketNotes é responsável por gerenciar o armazenamento, autenticação e manipulação de dados relacionados às notas do usuário.
+The RocketNotes backend is responsible for managing storage, authentication, and data manipulation related to user notes.
 
-## Estrutura de Diretórios
+## Directory Structure
 
-- **src/controllers**: Controladores para manipulação de dados (Notes, Tags, Sessions, User Avatar, User).
-- **src/database**: Configurações e scripts relacionados ao banco de dados (Knex e SQLite).
-- **src/configs, src/middleware, src/providers, src/routes, src/utils**: Diversas configurações e utilidades para o projeto.
-- **src/uploads**: Local para o armazenamento de uploads (user avatars, por exemplo).
-- **src/tmp**: Pasta temporária para armazenar arquivos temporários.
+- **src/controllers**: Controllers for data manipulation (Notes, Tags, Sessions, User Avatar, User).
+- **src/database**: Configurations and scripts related to the database (Knex and SQLite).
+- **src/configs, src/middleware, src/providers, src/routes, src/utils**: Various configurations and utilities for the project.
+- **src/uploads**: Location for storing uploads (user avatars, for example).
+- **src/tmp**: Temporary folder for storing temporary files.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Express**: Framework web para Node.js.
-- **Knex**: Construtor de consultas SQL.
-- **SQLite e SQLite3**: Banco de dados utilizado para armazenamento local.
-- **Axios, Bcryptjs, Cors, Jsonwebtoken, Multer**: Pacotes para diversas funcionalidades (requisições HTTP, criptografia, controle de CORS, autenticação, manipulação de arquivos).
-
+- **Express**: Web framework for Node.js.
+- **Knex**: SQL query builder.
+- **SQLite and SQLite3**: Database used for local storage.
+- **Axios, Bcryptjs, Cors, Jsonwebtoken, Multer**: Packages for various functionalities (HTTP requests, encryption, CORS control, authentication, file manipulation).
 
 ## API Endpoints
 
-- **/api/signin**: Rota para autenticação do usuário.
-- **/api/signup**: Rota para registro do usuário.
-- **/api/notes**: Rota para manipulação de notas.
-- **/api/tags**: Rota para manipulação de tags.
-- **/api/profile/avatar**: Rota para manipulação de avatares de usuário.
-- **/api/profile**: Rota para informações do perfil do usuário.
+- **/api/signin**: Route for user authentication.
+- **/api/signup**: Route for user registration.
+- **/api/notes**: Route for note manipulation.
+- **/api/tags**: Route for tag manipulation.
+- **/api/profile/avatar**: Route for user avatar manipulation.
+- **/api/profile**: Route for user profile information.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Contributions are welcome! Feel free to open issues and pull requests.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a Licença ISC. Consulte o arquivo LICENSE.md para obter mais detalhes.
-
+This project is licensed under the ISC License. See the LICENSE.md file for more details.
